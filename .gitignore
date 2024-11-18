@@ -1,0 +1,56 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cartelle create da test e distribuzioni
+build/
+dist/
+*.egg-info/
+
+# Virtualenv
+.env/
+.venv/
+env/
+venv/
+
+# File di configurazione personali
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# File di log e output
+*.log
+*.out
+*.err
+
+# File generati da Jupyter Notebook
+.ipynb_checkpoints/
+
+# File creati da PyTorch e modelli salvati
+*.pt
+*.pth
+runs/  # Directory tipica di TensorBoard
+
+# Dati grandi o temporanei
+data/
+dataset/
+*.csv
+*.tsv
+*.json
+*.h5
+*.npz
+
+# File per debugging e IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# File di configurazione specifici
+.env
+config.yaml
+config.json
+
+# Altri file non tracciati specifici
+!README.md  # Permetti sempre il README
